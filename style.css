@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-size: cover;
+    background-image: url(./img/background.jpg);
+}
+.container {
+    width: 100%;
+}
+
+h1{
+    text-align: center;
+    color: white;
+}
+main{
+    background-image: url(./img/background2.jpg);
+    background-position-x: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    margin: auto;
+    width: 65%;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    text-align: center;
+    border: 1px solid transparent;
+}
+
+.komputer img:hover{
+    border: 1px solid black;
+}
+
+.player {
+    text-align: center;
+    background-color: yellow;
+    margin-bottom: 15px;
+    border-radius: 70px;
+}
+
+.player img{
+    margin-bottom: 10px;
+}
+
+p{
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.score {
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    width: 80%;
+    height: 100px;
+}
+
+.score h1{
+    padding-top: 16px;
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    margin-top: 50px;
+    text-transform: uppercase;
+    
+}
+
+.komputer{
+    display: block;
+    border-radius: 70px;
+    margin-bottom: 30px;
+    text-align: center;
+    background-color: #0052cc;
+    margin-bottom: 50px;
+}
+.komputer li{
+    padding: 10px;
+    text-decoration: none;
+    list-style: none;
+    display: inline-block;
+    text-align: center;
+}
+
+.komputer img{
+    cursor: pointer;
+}
